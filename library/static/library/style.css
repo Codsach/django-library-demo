@@ -1,0 +1,50 @@
+\body {
+    margin: 0;
+    font-family: system-ui;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 420px;
+    padding: 24px;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 14px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0;
+    border: none;
+    border-radius: 6px;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    background: #00c6ff;
+    color: black;
+    cursor: pointer;
+}
+
+a {
+    color: #00eaff;
+    text-decoration: none;
+    font-size: 14px;
+}

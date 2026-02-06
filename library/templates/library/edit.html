@@ -1,0 +1,16 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'library/style.css' %}">
+<div class="container">
+
+<h2>Edit Book</h2>
+
+<form method="post">
+  {% csrf_token %}
+  Title: <input type="text" name="title" value="{{ book.title }}"><br><br>
+  Author: <input type="text" name="author" value="{{ book.author }}"><br><br>
+  <button type="submit">Update</button>
+</form>
+
+<a href="/">Back</a>
+
+</div>
