@@ -135,3 +135,33 @@ a {
 a:hover {
     text-shadow: 0 0 8px rgba(0, 234, 255, 0.8);
 }
+.actions {
+    margin-top: 8px;
+}
+
+.btn {
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 13px;
+    text-decoration: none;
+    margin-right: 6px;
+    display: inline-block;
+    transition: 0.2s ease;
+}
+
+.btn-edit {
+    background: rgba(0, 255, 170, 0.2);
+    color: #00ffcc;
+    border: 1px solid rgba(0, 255, 170, 0.4);
+}
+
+.btn-delete {
+    background: rgba(255, 0, 80, 0.2);
+    color: #ff4d6d;
+    border: 1px solid rgba(255, 0, 80, 0.4);
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}

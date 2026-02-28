@@ -10,8 +10,10 @@
   {% for book in books %}
     <li>
       {{ book.title }} - {{ book.author }}
-      <a href="/edit/{{ forloop.counter0 }}/">Edit</a>
-      <a href="/delete/{{ forloop.counter0 }}/">Delete</a>
+     <div class="actions">
+    <a href="/edit/{{ forloop.counter0 }}/" class="btn btn-edit">Edit</a>
+    <a href="/delete/{{ forloop.counter0 }}/" class="btn btn-delete">Delete</a>
+</div>
     </li>
   {% empty %}
     <li>No books available</li>
